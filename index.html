@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mukilarasan Ravi</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="navbar" id="navbar">
+    <a id="tab-home" class="active" onclick="showTab('home', this)">Home</a>
+    <a id="tab-debug-diaries" onclick="showTab('debug-diaries', this)">Debug Diaries</a>
+    <a id="tab-engg-diaries" onclick="showTab('engg-diaries', this)">Engg Diaries</a>
+    <a id="tab-vuln-diaries" onclick="showTab('vuln-diaries', this)">Vuln Diaries</a>
+    <a id="tab-podcast" onclick="showTab('podcast', this)" style="display: none;">Podcast</a>
+    <!-- Hidden Podcast Tab -->
+  </div>
+
+  <div id="home" class="content active left_align" data-scroll="0">
+    <h1>Greetings! 👨‍💻</h1>
+    <h2>I'm <span class="highlight">Mukilarasan Ravi</span></h2>
+    <h3>Software Engineer | Java Backend Expert</h3>
+    <p>
+      Experienced software engineer with over a decade of expertise in
+      Java, SDLC, and backend optimization. I specialize in designing scalable,
+      high-performance systems and leading cross-functional teams to deliver
+      robust enterprise solutions.
+    </p>
+    <p>
+      Passionate about improving system efficiency, implementing security best practices,
+      and mentoring developers to enhance overall productivity. I have worked extensively
+      with <span class="software">Java, Spring, Kafka, Hibernate,</span> and various database technologies, ensuring
+      secure, scalable, and optimized applications.
+    </p>
+
+    <h4>Highlights:</h4>
+    <ul>
+      <li style="display: none;">Optimized system performance, reducing signup time from 10 minutes to 3 minutes.</li>
+      <li>Led backend development for large-scale data sync between orgs.</li>
+      <li>Built a custom ORM layer to simplify learning and enhance developer experience.</li>
+      <li>Mentored engineers and conducted knowledge-sharing sessions.</li>
+      <li>Worked extensively with cross-functional teams to ensure high-quality software delivery.</li>
+    </ul>
+
+
+  </div>
+
+  <div id="debug-diaries" class="content" data-scroll="0">
+    
+  </div>
+  <div id="engg-diaries" class="content" data-scroll="0">
+
+  </div>
+  <div id="vuln-diaries" class="content" data-scroll="0">
+    <div id="vuln-no-post" class="terminal" style="display: none">
+      <p>Access Denied: <span class="highlight">The blog is still under lock and key</span>—nothing to see here yet.
+        Check back soon to see what we've unlocked.</p>
+    </div>
+  </div>
+  <div id="podcast" class="content" data-scroll="0">
+    <h1>Podcast</h1>
+    <div class="dummy-text">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</div>
+    <div class="dummy-text">Fusce nec tellus sed augue semper porta.</div>
+  </div>
+  <div class="loader-container" style="display: none;">
+    <div class="loading-text">Loading from Blogger</div>
+    <div class="loader"></div>
+  </div>
+  <script src="js/home.js">
+  </script>
+  <script src="js/rss.js">
+
+  </script>
+  <!-- Default Statcounter code for Personal Site https://i.am.mukilarasan.com/
+-->
+<script type="text/javascript">
+  var sc_project=13105527;
+  var sc_invisible=1;
+  var sc_security="50dd5698";
+  </script>
+  <script type="text/javascript"
+  src="https://www.statcounter.com/counter/counter.js" async></script>
+  <noscript><div class="statcounter"><a title="Web Analytics Made Easy -
+  Statcounter" href="https://statcounter.com/" target="_blank"><img
+  class="statcounter" src="https://c.statcounter.com/13105527/0/50dd5698/1/"
+  alt="Web Analytics Made Easy - Statcounter"
+  referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+  <!-- End of Statcounter Code -->
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P8RW9E20TL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P8RW9E20TL');
+</script>
+</body>
+
+</html>
